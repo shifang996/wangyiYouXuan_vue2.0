@@ -1,0 +1,1 @@
+export const SHOPCAR_ADD = "shopcate_add";

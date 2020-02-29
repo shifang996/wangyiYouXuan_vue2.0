@@ -21,7 +21,7 @@ export default new Vuex.Store({
 		// },
 		//加入购物车vuex函数
 		shopadd(state, payLoad) {
-			state.shopcarlist.push(payLoad);
+			state.shopcarlist.append(payLoad);
 		}
 	},
 	actions: {},
